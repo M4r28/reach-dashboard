@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Clock from "./Components/Clock";
+import Background from "./Components/Background";
 
 class App extends Component {
+
   render() {
     return (
       <React.Fragment>
-        <div className="App" />
+         
+        <Background>
         <Clock />
+        </Background> 
       </React.Fragment>
     );
   }
