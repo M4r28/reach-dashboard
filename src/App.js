@@ -4,14 +4,11 @@ import Clock from "./Components/Clock";
 import Background from "./Components/Background";
 
 class App extends Component {
-
   render() {
     return (
       <React.Fragment>
-         
-        <Background>
+        <Background />
         <Clock />
-        </Background> 
       </React.Fragment>
     );
   }

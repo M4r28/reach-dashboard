@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import "../App.css";
 
 
 class Background extends Component {
@@ -18,11 +18,11 @@ componentDidMount() {
 }
 
 render() {
-    const { hits } = this.state;
+    const { url } = this.state;
 
     return (
 
-    <img src={this.state.url}></img>
+    <img className= "backgroundImage" src={this.state.url}/>
     
     );
 }
